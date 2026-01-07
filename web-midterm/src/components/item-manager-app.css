@@ -1,0 +1,63 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px; /* Header alignment */
+}
+
+/* Table basic style */
+.item-table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+.item-table th,
+.item-table td {
+  border-bottom: 1px solid black;
+}
+.item-table th {
+  text-align: left;
+  padding: 10px;
+  font-weight: 600;
+}
+.item-table td {
+  padding: 10px;
+  vertical-align: middle;
+}
+input[type="text"],
+input[type="number"],
+select {
+  width: 40%;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2563eb; /* blue */
+  border: 1px solid black;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+#error-message {
+  color: red;
+  font-size: 0.9rem;
+}
+.item-table td:nth-child(3) img {
+  display: block;
+  margin-left: 1.5rem;
+  width: 22px;
+  height: 22px;
+}
+.item-table th:nth-child(2),
+.item-table td:nth-child(2) {
+  width: 50%;
+}
+
+/* Header */
+#h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
